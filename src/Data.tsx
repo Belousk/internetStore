@@ -1,6 +1,3 @@
-import sushi from "./Components/Sushi/Sushi";
-
-
 export type productType = {
     name: string,
     description: string,

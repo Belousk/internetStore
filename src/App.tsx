@@ -6,7 +6,6 @@ import Header from "./Components/Header/Header";
 import Rolls from "./Components/Rolls/Rolls";
 import Index from "./Components/Index/Index";
 import Footer from "./Components/Footer/Footer";
-import Sushi from "./Components/Sushi/Sushi";
 import Product from "./Components/Products/Product";
 
 type categoryType = {
@@ -54,7 +53,7 @@ let categories: categoryType[] = [
         category: 'НАПИТКИ',
         link: 'drinks'
     }
-    ]
+]
 
 
 function App() {
@@ -63,12 +62,9 @@ function App() {
             <div>
                 <Header categories={categories}/>
                 <Routes>
-                    <Route path="/" element={<Index/>}
-                    />
-                    <Route path="/rolls/*" element={<Rolls />}
-                    />
+                    <Route path="/" element={<Index/>}/>
+                    <Route path="/rolls/*" element={<Rolls />}/>
                     <Route path="/sushi/" element={<Product productsType={'Суши'} products={allProducts.sushi} />}/>
-
                     <Route path="/pizza/" element={<Product productsType={'Пицца'} products={allProducts.pizza} />}/>
                     <Route path="/woks/" element={<Product productsType={'Воки'} products={allProducts.woks} />}/>
                     <Route path="/sets/" element={<Product productsType={'Сеты'} products={allProducts.sets} />}/>
