@@ -1,0 +1,22 @@
+.roll_header{
+    margin: 30px 10px;
+}
+
+.types {
+    margin: 10px;
+}
+.types ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.types ul a{
+    color: #3d3d3d;
+    display: block;
+    padding: 20px 0;
+}
+.types ul li{
+    display: block;
+    margin-right: 10px;
+}

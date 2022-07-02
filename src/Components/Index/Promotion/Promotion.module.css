@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+.promotion a{
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.promotion img{
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.promotion a:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.promotion_header{
+    margin: 30px 10px;
+}

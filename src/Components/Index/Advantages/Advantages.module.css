@@ -1,0 +1,32 @@
+.advantages{
+    color: #4c4c4c;
+    display: flex;
+    flex-wrap: wrap;
+}
+.advantages .first{
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.advantages .second{
+    flex: 0 0 50%;
+    width: 100%;
+}
+.advantages .third{
+    flex: 0 0 50%;
+    width: 100%;
+}
+.advantages .ul{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.advantages_header{
+    margin: 30px 10px;
+}
+
+.advantages .li{
+    list-style: disc;
+    margin-left: 40px;
+    margin-top: 10px;
+}

@@ -1,0 +1,122 @@
+.fixed_footer a{
+    display: block;
+    color: #8c8c8c;
+    margin: 20px;
+}
+
+.fixed_footer a:first-child{
+    display: block;
+    color: #8c8c8c;
+    margin-left: 0;
+}
+
+.fixed_footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    transition: all .3s ease;
+    background-color: #353535;
+    z-index: 3;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.connection_with_us a{
+    color: #8c8c8c;
+    font-weight: bold;
+}
+.connection_with_us{
+    flex: 41.3333%;
+}
+
+.our_payments{
+    flex: 0 0 25%;
+}
+
+.our_payments img{
+    width: 33.3333%;
+}
+
+.payable_card{
+    margin-top: 15px;
+    display: flex;
+    padding: 0 70px 0 0;
+}
+
+
+
+
+.our_app a{
+    flex: 0 0 50%;
+    padding: 0;
+}
+
+.our_app img{
+    max-width: 100%;
+    padding-right: 5px;
+}
+
+.our_app img.last{
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+.our_app{
+    flex: 0 0 33.33333%;
+    padding: 0 15px
+}
+
+.our_app .icons{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.mobile{
+    display: none;
+}
+
+.mobile img{
+    width: 18px;
+    margin-bottom: 4px;
+}
+.mobile{
+    justify-content: space-between;
+    text-align: center;
+    z-index: 3;
+}
+.fixed_footer ul.desktop{
+    display: flex;
+}
+
+.hidden_ellipsis a{
+    color: #8c8c8c;
+}
+
+.hidden_ellipsis{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #8c8c8c;
+    position: fixed;
+    bottom: -200px;
+    width: 100%;
+    text-align: center;
+    background-color: #343434;
+    left: 0;
+    transition: all 0.5s ease;
+    z-index: 0;
+}
+.hidden_ellipsis li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin: 0;
+}
+.visible{
+    visibility: visible;
+    transition: all 0.5s ease;
+    bottom: 75px;
+}
