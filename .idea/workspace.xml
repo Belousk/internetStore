@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9250126-2354-4547-b45b-34d0deda398a" name="Changes" comment="git run scripts">
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/gh-pages/https!github.com!Belousk!internetStore.git" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/gh-pages/https!github.com!Belousk!internetStore.git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,8 @@
       <workItem from="1655626146391" duration="10175000" />
       <workItem from="1655709929029" duration="32185000" />
       <workItem from="1656268885225" duration="1694000" />
-      <workItem from="1656313683164" duration="24400000" />
+      <workItem from="1656313683164" duration="25061000" />
+      <workItem from="1657097921527" duration="335000" />
     </task>
     <task id="LOCAL-00001" summary="create git commit">
       <created>1656748379314</created>
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656758709462</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="git run scripts">
+      <created>1656758736303</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656758736303</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
