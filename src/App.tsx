@@ -62,16 +62,16 @@ function App() {
             <div>
                 <Header categories={categories}/>
                 <Routes>
-                    <Route path="/" element={<Index/>}/>
-                    <Route path="/rolls/*" element={<Rolls />}/>
-                    <Route path="/sushi/" element={<Product productsType={'Суши'} products={allProducts.sushi} />}/>
-                    <Route path="/pizza/" element={<Product productsType={'Пицца'} products={allProducts.pizza} />}/>
-                    <Route path="/woks/" element={<Product productsType={'Воки'} products={allProducts.woks} />}/>
-                    <Route path="/sets/" element={<Product productsType={'Сеты'} products={allProducts.sets} />}/>
-                    <Route path="/salads/" element={<Product productsType={'Салаты'} products={allProducts.salads} />}/>
-                    <Route path="/burgers/" element={<Product productsType={'Бургеры'} products={allProducts.burgers} />}/>
-                    <Route path="/soups/" element={<Product productsType={'Супы'} products={allProducts.soups} />}/>
-                    <Route path="/garnish/" element={<Product productsType={'Гарниры'} products={allProducts.garnish} />}/>
+                    <Route path="/internetStore/" element={<Index/>}/>
+                    <Route path="/internetStore/rolls/*" element={<Rolls />}/>
+                    <Route path="/internetStore/sushi/" element={<Product productsType={'Суши'} products={allProducts.sushi} />}/>
+                    <Route path="/internetStore/pizza/" element={<Product productsType={'Пицца'} products={allProducts.pizza} />}/>
+                    <Route path="/internetStore/woks/" element={<Product productsType={'Воки'} products={allProducts.woks} />}/>
+                    <Route path="/internetStore/sets/" element={<Product productsType={'Сеты'} products={allProducts.sets} />}/>
+                    <Route path="/internetStore/salads/" element={<Product productsType={'Салаты'} products={allProducts.salads} />}/>
+                    <Route path="/internetStore/burgers/" element={<Product productsType={'Бургеры'} products={allProducts.burgers} />}/>
+                    <Route path="/internetStore/soups/" element={<Product productsType={'Супы'} products={allProducts.soups} />}/>
+                    <Route path="/internetStore/garnish/" element={<Product productsType={'Гарниры'} products={allProducts.garnish} />}/>
                 </Routes>
             </div>
             <Footer/>
