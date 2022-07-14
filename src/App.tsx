@@ -15,43 +15,43 @@ type categoryType = {
 let categories: categoryType[] = [
     {
         category: 'СЕТЫ',
-        link:'sets'
+        link:'/internetStore/sets'
     },
     {
         category: 'РОЛЛЫ',
-        link: "rolls"
+        link: "/internetStore/rolls"
     },
     {
         category: 'СУШИ',
-        link: 'sushi'
+        link: '/internetStore/sushi'
     },
     {
         category: 'ПИЦЦА',
-        link: 'pizza'
+        link: '/internetStore/pizza'
     },
     {
         category: 'САЛАТЫ',
-        link: 'salads'
+        link: '/internetStore/salads'
     },
     {
         category: 'БУРГЕРЫ',
-        link: 'burgers'
+        link: '/internetStore/burgers'
     },
     {
         category: 'ВОКИ',
-        link: 'woks'
+        link: '/internetStore/woks'
     },
     {
         category: 'СУПЫ',
-        link: 'soups'
+        link: '/internetStore/soups'
     },
     {
         category: 'ГАРНИРЫ',
-        link: 'garnish'
+        link: '/internetStore/garnish'
     },
     {
         category: 'НАПИТКИ',
-        link: 'drinks'
+        link: '/internetStore/drinks'
     }
 ]
 

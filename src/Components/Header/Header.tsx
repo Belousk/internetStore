@@ -20,7 +20,7 @@ const Header = (props: any) => {
                         Доставка <br/> за 60 минут!
                     </div>
                     <div className={styles.logo}>
-                        <NavLink to="./" className="tabs" id="tab_main">
+                        <NavLink to="./internetStore/" className="tabs" id="tab_main">
                             <img className={styles.logoImg} src={logo} alt=""/>
                         </NavLink>
                     </div>
